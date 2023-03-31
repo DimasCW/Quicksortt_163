@@ -15,5 +15,5 @@ void input() {
 			break;
 		else
 			cout << "\n maksimum panjang element array : "
-	}
+	} 
 }
