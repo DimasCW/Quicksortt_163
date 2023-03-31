@@ -42,5 +42,13 @@ void q_short(int low, int high) {
 	// partition the list into two parts
 	// one containing element less that or equal to pivot
 	// outher containing element greather than pivot
-	i - low + 1;// langkah 3
+	i = low + 1;// langkah 3
+	j = high; // langkah 4
+	pivot = arr[low]; //langkah 2
+
+	while (i <= j)// langkah 10 
+	{
+		//search for an element greather than pivot 
+		while ((arr[i] <= pivot) && (i <= high))// langkah 5
+	}
 }
